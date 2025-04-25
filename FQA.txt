@@ -1,0 +1,25 @@
+FQA
+
+1. What is Node ?
+Nodes are building block of Godot, almost everything is made out of nodes. There are different 
+types of nodes, each with a specific function. Node that shows image of player, 
+or show text on the screen.
+
+2. What is Scene?
+Scenes is just a bunch of nodes grouped together, like player and level.
+
+3.What is Viewport 2D/3D 
+
+4.What is func _ready(): 
+Called when the node enters the scene tree for the first time
+
+5.What is func _process(delta):
+Called every frame. 'delta' is the elapsed time since the previous frame
+
+6. What are Assets
+Assets are individual components that make game world, they are music,sprites,animations
+
+VECTOR 2 -> Left(-1,0) Right (1,0) Uo (0,-1) Down (0,1) Right+Down(0.70,0.70)
+	var move_vector: Vector2 = Input.get_vector("move_left","move_right","move_up","move_down")
+	
+	

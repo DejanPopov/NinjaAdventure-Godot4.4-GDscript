@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bk20nmp8f03yr"]
+
+[ext_resource type="Script" uid="uid://ddnqpiu7n1cqe" path="res://Scripts/Player/player.gd" id="1_a3d8c"]
+[ext_resource type="Texture2D" uid="uid://dbcfouibo45v" path="res://Assets/Actor/Characters/NinjaRed2/SeparateAnim/Item.png" id="1_uvnfx"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_a3d8c"]
+radius = 8.0
+height = 18.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_a3d8c")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(162, 87)
+shape = SubResource("CapsuleShape2D_a3d8c")
+
+[node name="Item" type="Sprite2D" parent="."]
+position = Vector2(162, 87)
+texture = ExtResource("1_uvnfx")
