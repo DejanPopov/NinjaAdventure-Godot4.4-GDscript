@@ -1,14 +1,13 @@
 FQA
 
 1. What is Node ?
-Nodes are building block of Godot, almost everything is made out of nodes. There are different 
-types of nodes, each with a specific function. Node that shows image of player, 
+Nodes are building block of Godot, almost everything is made out of nodes. There are different types of nodes, each with a specific function. Node that shows image of player, 
 or show text on the screen.
 
 2. What is Scene?
 Scenes is just a bunch of nodes grouped together, like player and level.
 
-3.What is Viewport 2D/3D 
+3.What is Viewport 2D/3D ?????
 
 4.What is func _ready(): 
 Called when the node enters the scene tree for the first time
@@ -19,7 +18,21 @@ Called every frame. 'delta' is the elapsed time since the previous frame
 6. What are Assets
 Assets are individual components that make game world, they are music,sprites,animations
 
-VECTOR 2 -> Left(-1,0) Right (1,0) Uo (0,-1) Down (0,1) Right+Down(0.70,0.70)
+7. What is Vector2
+It is type of variable that contains two types of floats inside of it, they are represented with (x,y). Vector2 shows us the DIRECTION the player is moving in.
+Position and scale uses vetor2
+VECTOR 2 -> Left(-1,0) Right (1,0) Uo (0,-1) Down (0,1) Right+Down(0.70,0.70), 0.70 because player would move faster if pressed both axis at the same time
 	var move_vector: Vector2 = Input.get_vector("move_left","move_right","move_up","move_down")
+
+8.CharacterBody 2D Grounded/Floating
+For games like super mario we would use grounded because he has gravity (he can only move left,right and jump), 
+but if characters needs to go in all directions we woul duse floating as motion mod
 	
-	
+9. @export
+Exporting variables to property editor to have them visible and editable in the editor
+
+10. AnimationPlayer / AnimatedSprite2D
+AnimatedSprite2D -> We work with spritesheets (many images of some actions in one image file)
+
+11.$ sign 
+To fetch some nodes functionality in script of some other node
