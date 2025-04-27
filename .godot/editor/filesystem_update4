@@ -1,4 +1,4 @@
+res://Scenes/GameScenes/game_scene.tscn
+res://Scripts/Player/player.gd
 res://Scenes/Player/player.tscn
 res://FQA.txt
-res://Scripts/Player/player.gd
-res://Scenes/GameScenes/game_scene.tscn

@@ -36,3 +36,24 @@ AnimatedSprite2D -> We work with spritesheets (many images of some actions in on
 
 11.$ sign 
 To fetch some nodes functionality in script of some other node
+
+12.Tilemaps (TilemapLayer Node)
+A technique in 2D games that allows creating level by placing blocks (Tiles)
+In Godot we can select multiple tiles and click on dice for random settings
+
+13.Terrains
+In TilemapLayer Node under Tile Set go to Terrains Sets and then add elements
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
