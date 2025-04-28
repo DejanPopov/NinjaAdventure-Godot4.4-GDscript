@@ -3,3 +3,6 @@ res://FQA.txt
 res://Scenes/Player/player.tscn
 res://Scenes/SceneEntrance/scene_entrance.gd
 res://Scripts/Player/player.gd
+res://Scenes/DungeonScene/dunegeon_scene.tscn
+res://Scripts/SceneEntrance/scene_entrance.gd
+res://Scripts/SceneEntrance/scene_entranced.tscn

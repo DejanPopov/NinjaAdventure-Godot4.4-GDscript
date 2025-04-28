@@ -1,13 +1,11 @@
 extends CharacterBody2D
-
+class_name Player
 
 @export var move_speed: float = 100
 
-
 func _ready() -> void:
 	pass
-	
-	
+		
 func _process(_delta: float) -> void:
 	
 	"""Move the player"""

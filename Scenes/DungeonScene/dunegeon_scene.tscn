@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://chleutpccsjlv"]
+
+[ext_resource type="PackedScene" uid="uid://bk20nmp8f03yr" path="res://Scenes/Player/player.tscn" id="1_j2pme"]
+[ext_resource type="PackedScene" uid="uid://cy7fxhlsw8nd0" path="res://Scripts/SceneEntrance/scene_entranced.tscn" id="2_ib4iu"]
+
+[node name="DunegeonScene" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_j2pme")]
+motion_mode = 1
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+zoom = Vector2(5, 5)
+
+[node name="SceneEntranced" parent="." instance=ExtResource("2_ib4iu")]
+position = Vector2(0, 21)
+next_scene = "res://Scenes/GameScenes/game_scene.tscn"

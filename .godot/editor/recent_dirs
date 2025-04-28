@@ -1,5 +1,6 @@
-res://Scenes/SceneEntrance
+res://Scripts/SceneEntrance
 res://Assets/Backgrounds/Tilesets
+res://Scenes/DungeonScene
 res://Assets/Actor/Characters/NinjaRed2/SeparateAnim
 res://Scenes/GameScenes
 /home/dpopov/Videos/NinjaAdventure-Godot4.4-GDscript/

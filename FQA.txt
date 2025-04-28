@@ -44,15 +44,27 @@ In Godot we can select multiple tiles and click on dice for random settings
 13.Terrains
 In TilemapLayer Node under Tile Set go to Terrains Sets and then add elements
 
-14.
+14.Obstacles
+Through Tilemap layer add new tileset and add atlas importing trees terrain for example but we will 
+choose ourself a tile size. We click on tile and select tool and drag that one tile to be whole 
+image of tree.
 
-15.
+15.Y-sorting
+Technique that says which object should be in fron of other object depending on where it is.
+Player behind tree wont be visible, in fron of tree part of tree wont be visible and player
+cant go through tree (Enable Y sorting under Orderling on obstacle tilemap layer).
+ Put player node under obstacle tilemap layer. 
+In tileset -> rendering -> Texture origin -> Y = 14 PX
 
-16.
+16.Signals
+Signals are way to run specific part of code whenever an event happens (player touched coin or user clicks a button)
+Every node has each ser of signals.
 
-17.
+17.Area2D
+A region of 2D space that detects other CollisionObject2Ds entering or exiting it.
 
-18.
+18.Changing a scene
+get_tree().change_scene_to_file.call_deferred("path/to/scene/file")
 
 19.
 
